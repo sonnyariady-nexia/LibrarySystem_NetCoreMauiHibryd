@@ -1,4 +1,0 @@
-wwwroot\css\app.css
-wwwroot\index.html
-C:\Latihan\libonly-fixed3\src\Library.MAUI\wwwroot\css\app.css
-C:\Latihan\libonly-fixed3\src\Library.MAUI\wwwroot\index.html
