@@ -1,0 +1,602 @@
+[
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Get",
+    "RelativePath": "api/authors/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Delete",
+    "RelativePath": "api/authors/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "ExportExcel",
+    "RelativePath": "api/authors/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Excel.ExcelExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "SearchPost",
+    "RelativePath": "api/authors/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Crud.CrudSearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Common.Api.PagedResultGeneral\u00601[[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Upsert",
+    "RelativePath": "api/authors/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Library.Api.Models.Author",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Author, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Get",
+    "RelativePath": "api/books/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Delete",
+    "RelativePath": "api/books/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "ExportExcel",
+    "RelativePath": "api/books/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Excel.ExcelExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "SearchPost",
+    "RelativePath": "api/books/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Crud.CrudSearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Common.Api.PagedResultGeneral\u00601[[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Upsert",
+    "RelativePath": "api/books/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Library.Api.Models.Book",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Book, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Get",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Delete",
+    "RelativePath": "api/categories/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "ExportExcel",
+    "RelativePath": "api/categories/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Excel.ExcelExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "SearchPost",
+    "RelativePath": "api/categories/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Crud.CrudSearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Common.Api.PagedResultGeneral\u00601[[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Upsert",
+    "RelativePath": "api/categories/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Library.Api.Models.Category",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Category, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Get",
+    "RelativePath": "api/loans/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Delete",
+    "RelativePath": "api/loans/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "ExportExcel",
+    "RelativePath": "api/loans/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Excel.ExcelExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "SearchPost",
+    "RelativePath": "api/loans/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Crud.CrudSearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Common.Api.PagedResultGeneral\u00601[[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Upsert",
+    "RelativePath": "api/loans/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Library.Api.Models.Loan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Loan, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Get",
+    "RelativePath": "api/members/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Delete",
+    "RelativePath": "api/members/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[System.Boolean, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "ExportExcel",
+    "RelativePath": "api/members/export",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Excel.ExcelExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "SearchPost",
+    "RelativePath": "api/members/search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "Library.Api.Common.Crud.CrudSearchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Common.Api.PagedResultGeneral\u00601[[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Library.Api.Common.Controllers.CrudControllerBase\u00603[[Library.Api.Data.AppDbContext, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+    "Method": "Upsert",
+    "RelativePath": "api/members/upsert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "Library.Api.Models.Member",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Library.Api.Common.Api.ApiResponseGeneral\u00601[[Library.Api.Models.Member, Library.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

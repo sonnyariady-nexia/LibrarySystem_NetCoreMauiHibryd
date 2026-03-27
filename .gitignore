@@ -1,0 +1,14 @@
+# Ignore Visual Studio folder
+.vs/
+
+# Ignore build output folders in src
+src/Library.App/bin/
+src/Library.App/obj/
+src/Library.UI/bin/
+src/Library.UI/obj/
+src/Library.Web/bin/
+src/Library.Web/obj/
+
+# Optional: umumkan aturan untuk semua project .NET
+bin/
+obj/
