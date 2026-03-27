@@ -1,4 +1,0 @@
-wwwroot\index.html
-wwwroot\css\app.css
-C:\Latihan\libonly-fixed3\src\Library.App\wwwroot\index.html
-C:\Latihan\libonly-fixed3\src\Library.App\wwwroot\css\app.css

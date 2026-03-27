@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Library.App.props" />
-</Project>
